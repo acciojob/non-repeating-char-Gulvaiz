@@ -1,7 +1,8 @@
 function firstNonRepeatedChar(str) {
  // Write your code here 
+	let charCount = {}
 	for(let char of str){
-        let charCount = {}
+        
            if(charCount[char]){
                 charCount[char] ++
            }
